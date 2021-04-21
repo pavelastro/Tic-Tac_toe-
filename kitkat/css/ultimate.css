@@ -1,0 +1,111 @@
+* {
+    font-family: "MinecraftiaRegular", sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+/* #ultimate {
+  filter: grayscale(100%);
+} */
+
+.preSquare {
+  background-image: url("../images/dark-oak.png");
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  height: 456px;
+  width: 456px;
+}
+
+ .square {
+   border: 1px solid black;
+   height: 150px;
+   user-select: none;
+   width: 150px;
+   font-size: 96px;
+   line-height: 150px;
+
+ }
+
+.square:hover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fada89;
+  background-image: url("../images/tictac.png");
+  background-size: cover;
+  cursor: pointer;
+}
+
+#footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+#reset-button {
+  background-color: white;
+  border: 1px solid #31bdbd;
+  color: #2c3d3c;
+  font-size: 21px;
+  line-height: 55px;
+  margin: 1%;
+  text-align: center;
+  width: 456px;
+  background-color: #96e0d9;
+}
+
+ #o-button {
+   background-color: white;
+   border: 1px solid #c4339b;
+   color: #2c3d3c;
+   font-size: 21px;
+   line-height: 55px;
+   margin: 1%;
+   text-align: center;
+   width: 456px;
+   background-color: #e096c6;
+ }
+
+#reset-button:hover {
+  background-color: #41adb0;
+  color: #96e0d9;
+  cursor: pointer;
+}
+
+  #o-button:hover {
+  background-color: #cc50af;
+  color: #e096c6;
+  cursor: pointer;
+}
+
+#score-reset {
+  border: 1px solid #f5be78;
+  text-align: center;
+  color: #2c3d3c;
+  background-color: #8bc5f7;
+  margin: 1%;
+  width: 60%;
+  height: 40px;
+  font-size: 28px;
+}
+
+#score-reset:hover {
+  color: #fad38c;
+  background-color: #fa89cf;
+}

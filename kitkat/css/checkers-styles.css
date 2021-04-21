@@ -1,0 +1,91 @@
+* {
+  font-family: "MinecraftiaRegular", sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  margin: 0 auto;
+  font-size: 48px;
+  margin: 2%;
+}
+
+#board {
+  position: absolute;
+  top: calc(50% - 42.0vmin);
+  left: calc(50% - 42.0vmin);
+  width: 80vmin;
+  height: 80vmin;
+  background-image: url("../images/acacia.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ }
+
+.tile {
+  width: 10vmin;
+  height: 10vmin;
+  position: absolute;
+  background-image: url("../images/dark-oak.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tile.option {
+  background-color: rgba(73, 47, 23, 0.5));
+}
+
+.player1pieces .piece {
+  position: absolute;
+  width: 8vmin;
+  height: 8vmin;
+  background-image: url("../images/pigman.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 6vmin;
+  margin-top: 1vmin;
+  margin-left: 1vmin;
+  cursor: pointer;
+  background-color: rgba(232, 124, 125, 0.5);
+
+}
+
+.player1pieces .piece.selected {
+  box-shadow: 0 0 10px 5px orange;
+}
+
+.tile .moveOption {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../images/tictac.png");
+  opacity: 0.5;
+}
+
+.player2pieces .piece {
+  position: absolute;
+  width: 8vmin;
+  height: 8vmin;
+  background-image: url("../images/zombie.png");
+  background-color: rgba(0, 171, 171, 0.5);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 6vmin;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-top: 1vmin;
+  margin-left: 1vmin;
+  cursor: pointer;
+  }
+
+#board .player2pieces .piece.selected {
+      box-shadow: 0 0 10px 5px orange;
+}
